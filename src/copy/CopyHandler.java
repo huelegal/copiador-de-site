@@ -1,4 +1,4 @@
-package site;
+package copy;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
