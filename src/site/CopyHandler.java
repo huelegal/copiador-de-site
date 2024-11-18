@@ -104,7 +104,7 @@ public class CopyHandler {
         String outputFileName = generateFileName(siteUrl);
 
         try (BufferedWriter writer = new BufferedWriter(
-                new FileWriter("/opt/dev/projects/java/copiador-de-site/out/" + outputFileName))) {
+                new FileWriter("./out/" + outputFileName))) {
             writer.write(content);
         } catch (IOException e) {
             e.printStackTrace();
