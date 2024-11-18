@@ -10,6 +10,9 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 
+/**
+ * Classe que cuida dos métodos de copia de sites para arquivos.
+ */
 public class CopyHandler {
 
     /**
